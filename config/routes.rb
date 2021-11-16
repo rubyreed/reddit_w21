@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   #root is a get '/'
   root "static#home"
   # get '/', to:"static#home"
+  resources :cars
 end
